@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Flex Example</title>
+    <style>
+      body
+      { padding: 2em;}
+
+      .headerContainer
+      {
+          display: flex;
+          flex-flow: column wrap;
+          align-content: center;
+          background: tomato;
+          font-weight: bold;
+          color: white;
+          padding: 10px;
+      }
+
+       .footerContainer
+      {
+        display: flex;
+          flex-flow: column wrap;
+          align-content: center;
+          background: rgb(71, 227, 255);
+          font-weight: bold;
+          color: rgb(17, 16, 16);
+          padding: 10px;
+      }
+
+       .mainContainer
+       {
+        display: flex;
+          flex-flow: column wrap;
+          align-content: center;
+          background: rgb(107, 201, 30);
+          font-weight: bold;
+          color: rgb(13, 11, 14);
+          padding: 10px;
+       }
+    </style>
+</head>
+<body>
+    <header class="headerContainer"><h1>HEADER-sample example</h1></header>
+    <div class="mainContainer"></div>
+    <footer class="footerContainer">Footer</footer>
+</body>
+</html>
